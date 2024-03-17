@@ -1,0 +1,15 @@
+.mine {
+  flex: 1;
+}
+
+.order-list {
+  flex: 1;
+  &-item {
+    line-height: .6rem;
+    margin: .1rem 0;
+    display: flex;
+    label {
+      flex: 1;
+    }
+  }
+}

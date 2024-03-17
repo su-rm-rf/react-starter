@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: .32rem;
+}
+a {
+  text-decoration: none;
+  color: $grey-1;
+  &:hover {
+    color: $primary;
+  }
+}
+ul, ol, li, dl, dt, dd {
+  list-style: none;
+}

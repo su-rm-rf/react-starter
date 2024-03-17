@@ -1,0 +1,29 @@
+.goods-list {
+  flex: 1;
+  ul {
+    li {
+      line-height: .6rem;
+    }
+  }
+  &-col {
+    cursor: pointer;
+    margin-bottom: .4rem;
+  }
+}
+
+.goods-detail {
+  flex: 1;
+  &-item {
+    line-height: .6rem;
+    margin: .1rem 0;
+    display: flex;
+    label {
+      flex: 1;
+    }
+    &.btn-list {
+      margin: .6rem 0rem;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

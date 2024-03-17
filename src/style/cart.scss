@@ -1,0 +1,12 @@
+.cart {
+  flex: 1;
+  &-item {
+    line-height: .6rem;
+    margin: .1rem 0;
+    &.btn-list {
+      margin: .6rem 0rem;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
